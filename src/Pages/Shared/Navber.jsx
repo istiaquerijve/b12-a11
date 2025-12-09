@@ -1,8 +1,21 @@
 import React from 'react';
 import Logo from '../../Component/Logo/Logo';
 import { Link, NavLink } from 'react-router';
+import useAuth from '../../hooks/useAuth';
 
 const Navber = () => {
+
+    const {user, logOut} = useAuth();
+
+    const handleLogout = () => {
+        logOut()
+        .then()
+        .catch(error => {
+            console.log(error);
+            
+        })
+    }
+
     const link = <>
         <li><NavLink>Home</NavLink></li>
         <li><NavLink>All-Loans</NavLink></li>
@@ -31,7 +44,11 @@ const Navber = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to="/register"><button className='btn  bg-green-400 text-white'>Register</button></Link>
+                    {
+                        user ? 
+                        <button onClick={handleLogout} className='btn  bg-green-400 text-white'>LogOut</button>
+                        : <Link to="/register"><button className='btn  bg-green-400 text-white'>Register</button></Link>
+                    }
                 </div>
                 </div>
         </div>
