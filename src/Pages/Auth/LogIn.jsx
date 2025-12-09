@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import useAuth from '../../hooks/useAuth';
 import { Link } from 'react-router';
 
-const Registre = () => {
+const LogIn = () => {
 
     const {
         register,
@@ -11,11 +11,11 @@ const Registre = () => {
         formState: { errors }
     } = useForm();
 
-    const {registerUsr} = useAuth();
+    const {singInUser} = useAuth();
 
-    const handleRegistration = (data) => {
+    const handleLogin = (data) => {
         // console.log("After register", data);
-        registerUsr(data.email, data.password)
+        singInUser(data.email, data.password)
         .then(result => {
             console.log(result.user);
             
@@ -26,9 +26,10 @@ const Registre = () => {
         })
     }
 
+
     return (
         <div>
-           <form onSubmit={handleSubmit(handleRegistration)}>
+           <form onSubmit={handleSubmit(handleLogin)}>
             <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-25 mb-25 mx-auto">
                 <div className="card-body">
                     <fieldset className="fieldset">
@@ -54,7 +55,7 @@ const Registre = () => {
                     <div><a className="link link-hover">Forgot password?</a></div>
                     <button className="btn btn-neutral mt-4">Login</button>
                     </fieldset>
-                     <p>Have an account <Link className='text-primary' to="/login">LogIn</Link> </p>
+                    <p>New to loneLink <Link className='text-primary' to="/register">Register</Link> </p>
                 </div>
                 </div>
            </form>
@@ -62,4 +63,4 @@ const Registre = () => {
     );
 };
 
-export default Registre;
+export default LogIn;
