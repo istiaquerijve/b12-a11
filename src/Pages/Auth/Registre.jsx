@@ -33,6 +33,12 @@ const Registre = () => {
             <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-25 mb-25 mx-auto">
                 <div className="card-body">
                     <fieldset className="fieldset">
+
+                            {/* name */}
+                    <label className="label">Name</label>
+                    <input type="text" {...register("name", {required: true})} className="input" placeholder="Your name" />
+                    {errors.name?.type === "required" && <p className='text-red-500'>Name is required</p>}
+
                         {/* email */}
                     <label className="label">Email</label>
                     <input type="email" {...register("email", {required: true})} className="input" placeholder="Email" />

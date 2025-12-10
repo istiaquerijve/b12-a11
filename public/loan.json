@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "loanImage": "https://example.com/images/personal_loan.jpg",
+    "loanTitle": "Personal Flexi Loan",
+    "loanCategory": "Personal",
+    "interest": "12%",
+    "maxLoanLimit": "500000",
+    "detailsUrl": "/loan/1"
+  },
+  {
+    "id": 2,
+    "loanImage": "https://example.com/images/home_loan.jpg",
+    "loanTitle": "Home Ownership Loan",
+    "loanCategory": "Home",
+    "interest": "8.5%",
+    "maxLoanLimit": "5000000",
+    "detailsUrl": "/loan/2"
+  },
+  {
+    "id": 3,
+    "loanImage": "https://example.com/images/car_loan.jpg",
+    "loanTitle": "Auto Finance Loan",
+    "loanCategory": "Vehicle",
+    "interest": "9.2%",
+    "maxLoanLimit": "2000000",
+    "detailsUrl": "/loan/3"
+  },
+  {
+    "id": 4,
+    "loanImage": "https://example.com/images/education_loan.jpg",
+    "loanTitle": "Higher Education Loan",
+    "loanCategory": "Education",
+    "interest": "7%",
+    "maxLoanLimit": "1500000",
+    "detailsUrl": "/loan/4"
+  },
+  {
+    "id": 5,
+    "loanImage": "https://example.com/images/business_loan.jpg",
+    "loanTitle": "Small Business Loan",
+    "loanCategory": "Business",
+    "interest": "11%",
+    "maxLoanLimit": "3000000",
+    "detailsUrl": "/loan/5"
+  },
+  {
+    "id": 6,
+    "loanImage": "https://example.com/images/agri_loan.jpg",
+    "loanTitle": "Agriculture Support Loan",
+    "loanCategory": "Agriculture",
+    "interest": "6.5%",
+    "maxLoanLimit": "1000000",
+    "detailsUrl": "/loan/6"
+  },
+  {
+    "id": 7,
+    "loanImage": "https://example.com/images/startup_loan.jpg",
+    "loanTitle": "Startup Booster Loan",
+    "loanCategory": "Startup",
+    "interest": "10.5%",
+    "maxLoanLimit": "4000000",
+    "detailsUrl": "/loan/7"
+  },
+  {
+    "id": 8,
+    "loanImage": "https://example.com/images/wedding_loan.jpg",
+    "loanTitle": "Wedding Celebration Loan",
+    "loanCategory": "Personal",
+    "interest": "13%",
+    "maxLoanLimit": "800000",
+    "detailsUrl": "/loan/8"
+  },
+  {
+    "id": 9,
+    "loanImage": "https://example.com/images/travel_loan.jpg",
+    "loanTitle": "Travel & Holiday Loan",
+    "loanCategory": "Travel",
+    "interest": "12.5%",
+    "maxLoanLimit": "600000",
+    "detailsUrl": "/loan/9"
+  },
+  {
+    "id": 10,
+    "loanImage": "https://example.com/images/medical_loan.jpg",
+    "loanTitle": "Medical Emergency Loan",
+    "loanCategory": "Medical",
+    "interest": "9%",
+    "maxLoanLimit": "1000000",
+    "detailsUrl": "/loan/10"
+  },
+  {
+    "id": 11,
+    "loanImage": "https://example.com/images/gold_loan.jpg",
+    "loanTitle": "Gold Secured Loan",
+    "loanCategory": "Gold",
+    "interest": "8%",
+    "maxLoanLimit": "2000000",
+    "detailsUrl": "/loan/11"
+  },
+  {
+    "id": 12,
+    "loanImage": "https://example.com/images/sme_loan.jpg",
+    "loanTitle": "SME Growth Loan",
+    "loanCategory": "Business",
+    "interest": "10%",
+    "maxLoanLimit": "3500000",
+    "detailsUrl": "/loan/12"
+  },
+  {
+    "id": 13,
+    "loanImage": "https://example.com/images/renovation_loan.jpg",
+    "loanTitle": "Home Renovation Loan",
+    "loanCategory": "Home",
+    "interest": "9%",
+    "maxLoanLimit": "1200000",
+    "detailsUrl": "/loan/13"
+  },
+  {
+    "id": 14,
+    "loanImage": "https://example.com/images/bike_loan.jpg",
+    "loanTitle": "Two-Wheeler Loan",
+    "loanCategory": "Vehicle",
+    "interest": "10%",
+    "maxLoanLimit": "300000",
+    "detailsUrl": "/loan/14"
+  },
+  {
+    "id": 15,
+    "loanImage": "https://example.com/images/laptop_loan.jpg",
+    "loanTitle": "Gadget Purchase Loan",
+    "loanCategory": "Electronics",
+    "interest": "14%",
+    "maxLoanLimit": "200000",
+    "detailsUrl": "/loan/15"
+  },
+  {
+    "id": 16,
+    "loanImage": "https://example.com/images/mortgage_loan.jpg",
+    "loanTitle": "Mortgage Loan",
+    "loanCategory": "Home",
+    "interest": "7.8%",
+    "maxLoanLimit": "7000000",
+    "detailsUrl": "/loan/16"
+  },
+  {
+    "id": 17,
+    "loanImage": "https://example.com/images/ngo_loan.jpg",
+    "loanTitle": "NGO Micro Loan",
+    "loanCategory": "Microfinance",
+    "interest": "5%",
+    "maxLoanLimit": "200000",
+    "detailsUrl": "/loan/17"
+  },
+  {
+    "id": 18,
+    "loanImage": "https://example.com/images/solar_loan.jpg",
+    "loanTitle": "Solar Energy Loan",
+    "loanCategory": "Green Energy",
+    "interest": "6%",
+    "maxLoanLimit": "900000",
+    "detailsUrl": "/loan/18"
+  },
+  {
+    "id": 19,
+    "loanImage": "https://example.com/images/shop_loan.jpg",
+    "loanTitle": "Shop Expansion Loan",
+    "loanCategory": "Business",
+    "interest": "11.5%",
+    "maxLoanLimit": "2500000",
+    "detailsUrl": "/loan/19"
+  },
+  {
+    "id": 20,
+    "loanImage": "https://example.com/images/freelancer_loan.jpg",
+    "loanTitle": "Freelancer Support Loan",
+    "loanCategory": "Personal",
+    "interest": "12%",
+    "maxLoanLimit": "400000",
+    "detailsUrl": "/loan/20"
+  },
+  {
+    "id": 21,
+    "loanImage": "https://example.com/images/overdraft_loan.jpg",
+    "loanTitle": "Overdraft Facility Loan",
+    "loanCategory": "Business",
+    "interest": "9.5%",
+    "maxLoanLimit": "1500000",
+    "detailsUrl": "/loan/21"
+  },
+  {
+    "id": 22,
+    "loanImage": "https://example.com/images/ngo_women_loan.jpg",
+    "loanTitle": "Women Entrepreneur Loan",
+    "loanCategory": "Women Empowerment",
+    "interest": "7%",
+    "maxLoanLimit": "1000000",
+    "detailsUrl": "/loan/22"
+  },
+  {
+    "id": 23,
+    "loanImage": "https://example.com/images/healthcare_loan.jpg",
+    "loanTitle": "Healthcare Equipment Loan",
+    "loanCategory": "Medical",
+    "interest": "8.5%",
+    "maxLoanLimit": "2500000",
+    "detailsUrl": "/loan/23"
+  },
+  {
+    "id": 24,
+    "loanImage": "https://example.com/images/hostel_loan.jpg",
+    "loanTitle": "Hostel Construction Loan",
+    "loanCategory": "Construction",
+    "interest": "10%",
+    "maxLoanLimit": "6000000",
+    "detailsUrl": "/loan/24"
+  },
+  {
+    "id": 25,
+    "loanImage": "https://example.com/images/ngo_student_loan.jpg",
+    "loanTitle": "Student Skill Loan",
+    "loanCategory": "Education",
+    "interest": "6.8%",
+    "maxLoanLimit": "500000",
+    "detailsUrl": "/loan/25"
+  },
+  {
+    "id": 26,
+    "loanImage": "https://example.com/images/land_loan.jpg",
+    "loanTitle": "Land Purchase Loan",
+    "loanCategory": "Property",
+    "interest": "8.2%",
+    "maxLoanLimit": "8000000",
+    "detailsUrl": "/loan/26"
+  },
+  {
+    "id": 27,
+    "loanImage": "https://example.com/images/ngo_farming_loan.jpg",
+    "loanTitle": "Livestock Farming Loan",
+    "loanCategory": "Agriculture",
+    "interest": "6%",
+    "maxLoanLimit": "700000",
+    "detailsUrl": "/loan/27"
+  },
+  {
+    "id": 28,
+    "loanImage": "https://example.com/images/it_loan.jpg",
+    "loanTitle": "IT Equipment Loan",
+    "loanCategory": "Technology",
+    "interest": "9.8%",
+    "maxLoanLimit": "1500000",
+    "detailsUrl": "/loan/28"
+  },
+  {
+    "id": 29,
+    "loanImage": "https://example.com/images/export_loan.jpg",
+    "loanTitle": "Export Business Loan",
+    "loanCategory": "Business",
+    "interest": "10.2%",
+    "maxLoanLimit": "5000000",
+    "detailsUrl": "/loan/29"
+  },
+  {
+    "id": 30,
+    "loanImage": "https://example.com/images/ngo_green_loan.jpg",
+    "loanTitle": "Eco-Friendly Project Loan",
+    "loanCategory": "Green Energy",
+    "interest": "5.5%",
+    "maxLoanLimit": "3000000",
+    "detailsUrl": "/loan/30"
+  }
+]
