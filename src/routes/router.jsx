@@ -6,6 +6,7 @@ import LogIn from "../Pages/Auth/LogIn";
 import PrivateRoute from "./PrivateRoute";
 import AllLoan from "../Pages/AllLone/AllLoan";
 import Error from "../Component/Logo/Error";
+import ApplyLoan from "../Pages/ApplyLone/ApplyLoan";
 
 export const router = createBrowserRouter([
   {
@@ -28,7 +29,12 @@ export const router = createBrowserRouter([
         },
         {
           path: "/all-loan",
-          element: <PrivateRoute><AllLoan/></PrivateRoute>
+          element: <PrivateRoute><AllLoan/></PrivateRoute>,
+          loader: () => fetch("../../public/loan.json")
+        },
+        {
+          path: "/apply-loan",
+          Component: ApplyLoan
         }
     ]
   },
