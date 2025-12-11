@@ -7,6 +7,9 @@ import PrivateRoute from "./PrivateRoute";
 import AllLoan from "../Pages/AllLone/AllLoan";
 import Error from "../Component/Logo/Error";
 import ApplyLoan from "../Pages/ApplyLone/ApplyLoan";
+import Dashboard from "../layout/Dashboard";
+import MyLoan from "../Pages/Dashboard/MyLoan";
+import UserAvatar from "../Pages/Dashboard/UserAvatar";
 
 export const router = createBrowserRouter([
   {
@@ -38,4 +41,18 @@ export const router = createBrowserRouter([
         }
     ]
   },
+  {
+    path: "/dashboard",
+    element: <PrivateRoute><Dashboard/></PrivateRoute>,
+    children: [
+      {
+        path: "my-loan",
+        Component: MyLoan
+      },
+      {
+        path: "user-avatar",
+        Component: UserAvatar
+      }
+    ]
+  }
 ]);

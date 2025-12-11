@@ -21,6 +21,15 @@ const Navber = () => {
         <li><NavLink to="/all-loan">All-Loans</NavLink></li>
         <li><NavLink>About Us</NavLink></li>
         <li><NavLink>Contact</NavLink></li>
+
+        {
+            user && <>
+                <li><NavLink to="/dashboard/my-loan">My Loan</NavLink></li>
+                <li><NavLink to="/dashboard/user-avatar">User Avatar</NavLink></li>
+
+            </>
+        }
+
     </>
     return (
         <div>
